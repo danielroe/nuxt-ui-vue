@@ -1,5 +1,17 @@
 import { createApp } from 'vue'
-import './style.css'
+import { createRouter, createWebHistory } from 'vue-router'
+import nuxtUI from '@nuxt/ui/vue-plugin'
+
 import App from './App.vue'
 
-createApp(App).mount('#app')
+const app = createApp(App)
+
+app.use(createRouter({
+  routes: [{ path: '/', component: () => import('./pages/Home.vue') }],
+  history: createWebHistory()
+}))
+
+// allow Nuxt UI to register vue plugins, like dark mode support + NuxtIcon
+app.use(nuxtUI)
+
+app.mount('#app')
