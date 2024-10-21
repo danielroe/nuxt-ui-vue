@@ -14,7 +14,7 @@
     "vue-router": "^4.4.5"
   },
   "devDependencies": {
-    "@nuxt/ui": "https://pkg.pr.new/@nuxt/ui@d5949e3",
+    "@nuxt/ui": "https://pkg.pr.new/@nuxt/ui@b1c144a",
     "@vitejs/plugin-vue": "^5.1.4",
     "tailwindcss": "4.0.0-alpha.28",
     "typescript": "^5.5.3",
