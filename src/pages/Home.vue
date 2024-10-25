@@ -6,6 +6,7 @@
         <UAvatar src="https://github.com/romhml.png" alt="Romain Hamel" />
         <UAvatar src="https://github.com/noook.png" alt="Neil Richter" />
       </UAvatarGroup>
+      <UButton>Hey there</UButton>
     </div>
   </div>
 </template>
